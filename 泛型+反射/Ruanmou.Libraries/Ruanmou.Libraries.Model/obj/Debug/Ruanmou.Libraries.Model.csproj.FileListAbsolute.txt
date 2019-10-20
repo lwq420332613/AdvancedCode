@@ -6,3 +6,10 @@ D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou
 D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Libraries.Model\obj\Debug\Ruanmou.Libraries.Model.csprojResolveAssemblyReference.cache
 D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Libraries.Model\bin\Debug\Ruanmou.Framework.dll
 D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Libraries.Model\bin\Debug\Ruanmou.Framework.pdb
+H:\MyRepository\泛型+反射\Ruanmou.Libraries\Ruanmou.Libraries.Model\bin\Debug\Ruanmou.Libraries.Model.dll
+H:\MyRepository\泛型+反射\Ruanmou.Libraries\Ruanmou.Libraries.Model\bin\Debug\Ruanmou.Libraries.Model.pdb
+H:\MyRepository\泛型+反射\Ruanmou.Libraries\Ruanmou.Libraries.Model\bin\Debug\Ruanmou.Framework.dll
+H:\MyRepository\泛型+反射\Ruanmou.Libraries\Ruanmou.Libraries.Model\bin\Debug\Ruanmou.Framework.pdb
+H:\MyRepository\泛型+反射\Ruanmou.Libraries\Ruanmou.Libraries.Model\obj\Debug\Ruanmou.Libraries.Model.dll
+H:\MyRepository\泛型+反射\Ruanmou.Libraries\Ruanmou.Libraries.Model\obj\Debug\Ruanmou.Libraries.Model.pdb
+H:\MyRepository\泛型+反射\Ruanmou.Libraries\Ruanmou.Libraries.Model\obj\Debug\Ruanmou.Libraries.Model.csprojResolveAssemblyReference.cache

@@ -1,6 +1,7 @@
 ﻿using Ruanmou.Framework;
 using Ruanmou.Framework.AttributeExtend;
 using Ruanmou.Framework.Model;
+using Ruanmou.Libraries.DAL;
 using Ruanmou.Libraries.IDAL;
 using Ruanmou.Libraries.Model;
 using System;
@@ -93,6 +94,22 @@ namespace Ruanmou.Libraries.DAL
         /// <param name="t"></param>
         public void Insert<T>(T t) where T : BaseModel
         {
+            Type type = typeof(T);
+            var propArray = type.GetProperties().Where(p => !p.Name.Equals("Id")).ToList();
+            string columnString = string.Join(",", propArray.Select(p => $"@{p.GetColumnName()}"));
+            var parameters = propArray.Select(p => new SqlParameter($"@{p.GetColumnName()}", p.GetValue(t) ?? DBNull.Value)).ToArray();
+            string sql = $"{TSqlHelper<T>.InsertSql}({columnString})";
+            using (SqlConnection conn = new SqlConnection(StaticConstant.SqlServerConnString))
+            {
+                SqlCommand sqlCommand = new SqlCommand(sql, conn);
+                sqlCommand.Parameters.AddRange(parameters);
+                conn.Open();
+                var result = sqlCommand.ExecuteNonQuery();
+                if (result == 0)
+                {
+                    throw new Exception("Insert数据失败");
+                }
+            }
         }
         /// <summary>
         /// 自己完成
@@ -101,6 +118,17 @@ namespace Ruanmou.Libraries.DAL
         /// <param name="id"></param>
         public void Delete<T>(int id) where T : BaseModel
         {
+            string sql = $"{TSqlHelper<T>.DeleteSql}{id}";
+            using (SqlConnection conn = new SqlConnection(StaticConstant.SqlServerConnString))
+            {
+                SqlCommand sqlCommand = new SqlCommand(sql,conn);
+                conn.Open();
+                var result = sqlCommand.ExecuteNonQuery();
+                if (result == 0)
+                {
+                    throw new Exception("Delete数据不存在");
+                }
+            }
         }
         #region PrivateMethod
         private List<T> ReaderToList<T>(SqlDataReader reader) where T : BaseModel

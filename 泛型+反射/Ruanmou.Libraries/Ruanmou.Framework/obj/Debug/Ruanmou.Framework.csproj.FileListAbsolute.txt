@@ -4,3 +4,7 @@ D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou
 D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Framework\obj\Debug\Ruanmou.Framework.dll
 D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Framework\obj\Debug\Ruanmou.Framework.pdb
 D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Framework\obj\Debug\Ruanmou.Framework.csprojResolveAssemblyReference.cache
+H:\MyRepository\泛型+反射\Ruanmou.Libraries\Ruanmou.Framework\obj\Debug\Ruanmou.Framework.dll
+H:\MyRepository\泛型+反射\Ruanmou.Libraries\Ruanmou.Framework\obj\Debug\Ruanmou.Framework.pdb
+H:\MyRepository\泛型+反射\Ruanmou.Libraries\Ruanmou.Framework\bin\Debug\Ruanmou.Framework.dll
+H:\MyRepository\泛型+反射\Ruanmou.Libraries\Ruanmou.Framework\bin\Debug\Ruanmou.Framework.pdb

@@ -14,6 +14,7 @@ namespace Ruanmou.Framework.AttributeExtend
     {
         private long _Min = 0;
         private long _Max = 0;
+
         public LongAttribute(long min, long max)
         {
             this._Min = min;
@@ -24,13 +25,13 @@ namespace Ruanmou.Framework.AttributeExtend
             //可以改成一句话
             if (value != null && !string.IsNullOrWhiteSpace(value.ToString()))
             {
-                if (long.TryParse(value.ToString(), out long lResult))
-                {
-                    if (lResult > this._Min && lResult < this._Max)
-                    {
-                        return true;
-                    }
-                }
+                //if (long.TryParse(value.ToString(), out long lResult))
+                //{
+                //    if (lResult > this._Min && lResult < this._Max)
+                //    {
+                //        return true;
+                //    }
+                //}
             }
             return false;
         }

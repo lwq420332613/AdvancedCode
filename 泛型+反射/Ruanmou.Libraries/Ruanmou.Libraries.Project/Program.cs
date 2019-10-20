@@ -40,24 +40,32 @@ namespace Ruanmou.Libraries.Project
                 Console.WriteLine("This is Homework Lesson");
 
                 IBaseDAL baseDAL = DALFactory.CreateInstance();// new BaseDAL();
-                Company company = baseDAL.Find<Company>(8);
-                Company company1 = baseDAL.Find<Company>(1);
-                Company company2 = baseDAL.Find<Company>(2);
+                //Company company = baseDAL.Find<Company>(8);
+                //Company company1 = baseDAL.Find<Company>(1);
+                //Company company2 = baseDAL.Find<Company>(2);
 
-                List<Company> list = baseDAL.FindAll<Company>();
+                //List<Company> list = baseDAL.FindAll<Company>();
 
-                User user = baseDAL.Find<User>(1);
+                //User user = baseDAL.Find<User>(1);
 
+                //baseDAL.Delete<User>(5);
+                ////List<User> list = baseDAL.FindAll<User>();
 
-                //List<User> list = baseDAL.FindAll<User>();
+                ////company.Name = "腾讯课堂234564576754";
+                //////company.Validate();
+                ////baseDAL.Update<Company>(company);
 
-                //company.Name = "腾讯课堂234564576754";
-                ////company.Validate();
-                //baseDAL.Update<Company>(company);
+                //user.Name += "1";
+                //baseDAL.Update(user);
 
-                user.Name += "1";
-                baseDAL.Update(user);
-                //
+                baseDAL.Insert<Company>(new Company
+                {
+                    Name = "中航",
+                    CreateTime=DateTime.Now,
+                    CreatorId = 1,
+                    LastModifierId = 2,
+                    LastModifyTime = DateTime.Now
+                });
             }
             catch (Exception ex)//UI层必须把异常catch住
             {
