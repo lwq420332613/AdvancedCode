@@ -1,0 +1,4 @@
+1 面向对象Object Oriented
+2 封装继承多态
+3 抽象类接口
+4 重写overwrite(new)  覆写override 重载overload

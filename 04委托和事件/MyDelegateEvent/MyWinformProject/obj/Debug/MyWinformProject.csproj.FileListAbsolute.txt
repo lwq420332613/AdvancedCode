@@ -1,0 +1,10 @@
+D:\ruanmou\online11\20180509Advanced11Course6DelegateEvent\MyDelegateEvent\MyWinformProject\bin\Debug\MyWinformProject.exe.config
+D:\ruanmou\online11\20180509Advanced11Course6DelegateEvent\MyDelegateEvent\MyWinformProject\bin\Debug\MyWinformProject.exe
+D:\ruanmou\online11\20180509Advanced11Course6DelegateEvent\MyDelegateEvent\MyWinformProject\bin\Debug\MyWinformProject.pdb
+D:\ruanmou\online11\20180509Advanced11Course6DelegateEvent\MyDelegateEvent\MyWinformProject\obj\Debug\MyWinformProject.csprojResolveAssemblyReference.cache
+D:\ruanmou\online11\20180509Advanced11Course6DelegateEvent\MyDelegateEvent\MyWinformProject\obj\Debug\MyWinformProject.Form1.resources
+D:\ruanmou\online11\20180509Advanced11Course6DelegateEvent\MyDelegateEvent\MyWinformProject\obj\Debug\MyWinformProject.Properties.Resources.resources
+D:\ruanmou\online11\20180509Advanced11Course6DelegateEvent\MyDelegateEvent\MyWinformProject\obj\Debug\MyWinformProject.csproj.GenerateResource.Cache
+D:\ruanmou\online11\20180509Advanced11Course6DelegateEvent\MyDelegateEvent\MyWinformProject\obj\Debug\MyWinformProject.csproj.CoreCompileInputs.cache
+D:\ruanmou\online11\20180509Advanced11Course6DelegateEvent\MyDelegateEvent\MyWinformProject\obj\Debug\MyWinformProject.exe
+D:\ruanmou\online11\20180509Advanced11Course6DelegateEvent\MyDelegateEvent\MyWinformProject\obj\Debug\MyWinformProject.pdb

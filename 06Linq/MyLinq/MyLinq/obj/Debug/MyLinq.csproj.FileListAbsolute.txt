@@ -1,0 +1,15 @@
+D:\ruanmou\online10\20171115Advanced10Course8Linq\MyLinq\MyLinq\bin\Debug\MyLinq.exe.config
+D:\ruanmou\online10\20171115Advanced10Course8Linq\MyLinq\MyLinq\bin\Debug\MyLinq.exe
+D:\ruanmou\online10\20171115Advanced10Course8Linq\MyLinq\MyLinq\bin\Debug\MyLinq.pdb
+D:\ruanmou\online10\20171115Advanced10Course8Linq\MyLinq\MyLinq\obj\Debug\MyLinq.exe
+D:\ruanmou\online10\20171115Advanced10Course8Linq\MyLinq\MyLinq\obj\Debug\MyLinq.pdb
+D:\ruanmou\online11\20180516Advanced11Course8Linq\MyLinq\MyLinq\obj\Debug\MyLinq.csproj.CoreCompileInputs.cache
+D:\ruanmou\online11\20180516Advanced11Course8Linq\MyLinq\MyLinq\obj\Debug\MyLinq.exe
+D:\ruanmou\online11\20180516Advanced11Course8Linq\MyLinq\MyLinq\obj\Debug\MyLinq.pdb
+D:\ruanmou\online11\20180516Advanced11Course8Linq\MyLinq\MyLinq\bin\Debug\MyLinq.exe.config
+D:\ruanmou\online11\20180516Advanced11Course8Linq\MyLinq\MyLinq\bin\Debug\MyLinq.exe
+D:\ruanmou\online11\20180516Advanced11Course8Linq\MyLinq\MyLinq\bin\Debug\MyLinq.pdb
+D:\ruanmou\online11\20180516Advanced11Course8Linq\MyLinq\MyLinq\obj\Debug\MyLinq.csprojResolveAssemblyReference.cache
+H:\高级.Net\课程代码课件\20180516Advanced11Course8Linq(1)\MyLinq\MyLinq\bin\Debug\MyLinq.exe.config
+H:\高级.Net\课程代码课件\20180516Advanced11Course8Linq(1)\MyLinq\MyLinq\obj\Debug\MyLinq.exe
+H:\高级.Net\课程代码课件\20180516Advanced11Course8Linq(1)\MyLinq\MyLinq\obj\Debug\MyLinq.pdb
